@@ -12,6 +12,28 @@ html {
     grid-template-rows: 40px 40px 40px 40px 40px 40px 400px 40px;
 }
 
+.innerc {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 360px;
+    margin: 20px;
+}
+
+.innerc1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.innerc2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
 .diva {
     background-color: #c6f0db;
     grid-column-start: 1;
@@ -24,7 +46,7 @@ html {
 }
 
 .divb {
-    background-color: #d67f7f;
+    background: url(babyreads.jpeg);
     grid-column-start: 3;
     grid-column-end: 10;
     grid-row-start: 2;
